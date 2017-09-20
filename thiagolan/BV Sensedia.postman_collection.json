@@ -1,0 +1,252 @@
+{
+	"id": "d9bcb785-eb65-05a5-788e-3ecb6c29e237",
+	"name": "BV Sensedia",
+	"description": "",
+	"order": [
+		"9056183f-6d62-f4b6-8608-a48d905ea14e",
+		"97a6b6d8-5d7f-1b01-5ced-2a0eb3ce2e00",
+		"bf19d5af-0ba0-ad84-4c34-28f2d3e65bb6",
+		"36c53d58-dfba-544e-c933-66cb2fb60a95",
+		"e1b98a26-809b-811f-2e51-15a4b6be8786",
+		"55c90803-d3c3-e41f-aacb-07c57c278324",
+		"af0d49e6-fcca-5b1d-8eb3-04cc71cbf183"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1504709289736,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "36c53d58-dfba-544e-c933-66cb2fb60a95",
+			"headers": "Authorization: Bearer KWGVwOMpvbaGHXVGtg3wbqR8pNRwMrHUxm8TtEMX5eVmXO3mIh7Lu2sAsHJqo1nnDVnyronFfidsR6LvdDqr3sgADBOV_uNt7EH_9Eeu9uzLFp_7fR3UmQ0lXL1xGirNCYQyVhb356DB4MZFreRy1_A5LAPlDYKozsrK7Ac7PZcINC3_mJskSi_Jkvi9lrSBEM-dd3SYb4UctrYZ2V4rfvgdO2XC5QMqvObV_z8hSAg\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer KWGVwOMpvbaGHXVGtg3wbqR8pNRwMrHUxm8TtEMX5eVmXO3mIh7Lu2sAsHJqo1nnDVnyronFfidsR6LvdDqr3sgADBOV_uNt7EH_9Eeu9uzLFp_7fR3UmQ0lXL1xGirNCYQyVhb356DB4MZFreRy1_A5LAPlDYKozsrK7Ac7PZcINC3_mJskSi_Jkvi9lrSBEM-dd3SYb4UctrYZ2V4rfvgdO2XC5QMqvObV_z8hSAg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://sandbox-ltm.sensedia.com/programamerece/v1/redemption/perform/Confirm",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505512529702,
+			"name": "Confirm",
+			"description": "",
+			"collectionId": "d9bcb785-eb65-05a5-788e-3ecb6c29e237",
+			"responses": [],
+			"rawModeData": "{ \r\n  \"AccessToken\": null,\r\n  \"Login\": \"11111189145\",\r\n  \"OrderId\": 7,\r\n  \"AuthorizationCode\": null,\r\n}"
+		},
+		{
+			"id": "55c90803-d3c3-e41f-aacb-07c57c278324",
+			"headers": "Authorization: Bearer 4a7ts89BCP4lKm6lwVANejDjzrvmyvtwxXDTUDc2sKdTRTZhJhivgqlyHELTU8N6A9IuM-PgOgHVPUuZgQYYvmaJq12eOKrYmoHtxw8v0efyODWsuzjTObl4DlglQN6ByfzFjoAmiWyo-2obfFBBnflnjUQun8b7z3QJdWvHrtHJG8v0tZ8MiorUpnCGaxpZKI-LA3DDQIkvHAKHx0Uu7-yUaCi-I0yqm-2HkJj3L1c\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 4a7ts89BCP4lKm6lwVANejDjzrvmyvtwxXDTUDc2sKdTRTZhJhivgqlyHELTU8N6A9IuM-PgOgHVPUuZgQYYvmaJq12eOKrYmoHtxw8v0efyODWsuzjTObl4DlglQN6ByfzFjoAmiWyo-2obfFBBnflnjUQun8b7z3QJdWvHrtHJG8v0tZ8MiorUpnCGaxpZKI-LA3DDQIkvHAKHx0Uu7-yUaCi-I0yqm-2HkJj3L1c",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://sandbox-ltm.sensedia.com/programamerece/v1/participant/card",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505843619813,
+			"name": "Card",
+			"description": "",
+			"collectionId": "d9bcb785-eb65-05a5-788e-3ecb6c29e237",
+			"responses": [],
+			"rawModeData": "{  \n   \"ProductId\": 1,\n   \"CardExpirationDate\":202204,\n   \"CardNumber4Positions\":4130,\n   \"DocumentId\":\"11111189145\",\n   \"CVV\":624,\n   \"BirthDate\":19791023\n}"
+		},
+		{
+			"id": "9056183f-6d62-f4b6-8608-a48d905ea14e",
+			"headers": "Authorization: Bearer tRJ5lSX672l8iTxqQ4m7hvqH_wIfUxHnVj4hq2kyVssn3BWVn1WYv_wRFFUQmgrc_ExQrVgVnmN9exfUhaFi-3F-2vzEgBESpUD8DrhoJj45pMebyM7PGYARxvH4XrI5-FYOe-x6GFPtYjShQJVwiB8TX5rOyPDzOwnL3cgCKaznnSSFZBAJ0bdzo78PwYNQVTgcnE-Oda7JbPoV2UlOsJYYtWDkB9EWMb9N6Ae6ENA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer tRJ5lSX672l8iTxqQ4m7hvqH_wIfUxHnVj4hq2kyVssn3BWVn1WYv_wRFFUQmgrc_ExQrVgVnmN9exfUhaFi-3F-2vzEgBESpUD8DrhoJj45pMebyM7PGYARxvH4XrI5-FYOe-x6GFPtYjShQJVwiB8TX5rOyPDzOwnL3cgCKaznnSSFZBAJ0bdzo78PwYNQVTgcnE-Oda7JbPoV2UlOsJYYtWDkB9EWMb9N6Ae6ENA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://sandbox-ltm.sensedia.com/programamerece/v1/participant/11111189145/balance",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505843640909,
+			"name": "Balance",
+			"description": "",
+			"collectionId": "d9bcb785-eb65-05a5-788e-3ecb6c29e237",
+			"responses": []
+		},
+		{
+			"id": "97a6b6d8-5d7f-1b01-5ced-2a0eb3ce2e00",
+			"headers": "Authorization: Bearer laVL9M-ZkF8W01ImSKVRFWuBMm1_Fgv9aezH48pKFcgZ7GI9LNBvGEmJd-C__uAViXJb8i38_h3bI4V5li6wvF1fZUuID_IwXvJ6Grc0xH85BbZlRdpM4TxSeY5kd4NCG3JfCLBrnXFYfSrR2OE72RkNRE4sj9qSL2XA8FnATXob2bUCj9PiFubrR4ROv3WgbL5wXE2xgie4w5FSa6pb6KVtSHxGYPpNj4IViLk32MU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer laVL9M-ZkF8W01ImSKVRFWuBMm1_Fgv9aezH48pKFcgZ7GI9LNBvGEmJd-C__uAViXJb8i38_h3bI4V5li6wvF1fZUuID_IwXvJ6Grc0xH85BbZlRdpM4TxSeY5kd4NCG3JfCLBrnXFYfSrR2OE72RkNRE4sj9qSL2XA8FnATXob2bUCj9PiFubrR4ROv3WgbL5wXE2xgie4w5FSa6pb6KVtSHxGYPpNj4IViLk32MU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://sandbox-ltm.sensedia.com/programamerece/v1/participant/11111189307/info",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505843642724,
+			"name": "GetInfo",
+			"description": "",
+			"collectionId": "d9bcb785-eb65-05a5-788e-3ecb6c29e237",
+			"responses": []
+		},
+		{
+			"id": "af0d49e6-fcca-5b1d-8eb3-04cc71cbf183",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n//Authorization: Basic  cHJvZ3JhbWFtZXJlY2VAZ3J1cG9sdG0uY29tLmJy\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic  cHJvZ3JhbWFtZXJlY2VAZ3J1cG9sdG0uY29tLmJy",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://sandbox-ltm.sensedia.com/programamerece/v1/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505512543414,
+			"name": "Token",
+			"description": "",
+			"collectionId": "d9bcb785-eb65-05a5-788e-3ecb6c29e237",
+			"responses": [],
+			"rawModeData": "username=bv@grupoltm.com.br&password=123456&grant_type=password"
+		},
+		{
+			"id": "bf19d5af-0ba0-ad84-4c34-28f2d3e65bb6",
+			"headers": "Authorization: Bearer XzFA6T1aNSfD1S2c_MdatDps38KRSvoBWX9t9HEAlrZ6tW4vC24dn42mzYzZ6GdwJxg5GaXsxLqcegIGil3YVhOP9_s6nKJpc0jzpzPOgMSbR9Hfq6ZtKhfAU_5kEXaW18q3Es7EBpgpYycWfrJaOTDzeKSem5Yi7X-oIqj3xKHDMKDs0u5vdvGMqRZdOi-y6c8RKy-6lBIIUHJcIGgsYYv1MeR-pd7-NwMXMtsnguc\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer XzFA6T1aNSfD1S2c_MdatDps38KRSvoBWX9t9HEAlrZ6tW4vC24dn42mzYzZ6GdwJxg5GaXsxLqcegIGil3YVhOP9_s6nKJpc0jzpzPOgMSbR9Hfq6ZtKhfAU_5kEXaW18q3Es7EBpgpYycWfrJaOTDzeKSem5Yi7X-oIqj3xKHDMKDs0u5vdvGMqRZdOi-y6c8RKy-6lBIIUHJcIGgsYYv1MeR-pd7-NwMXMtsnguc",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://sandbox-ltm.sensedia.com/programamerece/v1/redemption/perform",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505843627980,
+			"name": "Authorize",
+			"description": "",
+			"collectionId": "d9bcb785-eb65-05a5-788e-3ecb6c29e237",
+			"responses": [],
+			"rawModeData": "{ \n  \"AccessToken\": null,\n  \"Login\": \"11111189145\",\n  \"OrderId\": 9,\n  \"ParentOrderId\": null,\n  \"TotalPoints\": 1.0,\n  \"ConversionRate\": 0.0,\n  \"TotalOrder\": 1.0,\n  \"ShippingValue\": 0.0,\n  \"OrderItems\": null\n}"
+		},
+		{
+			"id": "e1b98a26-809b-811f-2e51-15a4b6be8786",
+			"headers": "Authorization: Bearer UUqXdb35d8Qx_9iLWv8lnsqozN4QTZncVpefNVOGveq6n2BKnROeo__19iy8Kd6zxSGD8A4kv4Q6v8PLXhzBSgQ0KZIanE-t6SQfPMf5w1NDJgEYe-i951K4vuXH7ZM3ncKUngePg-qGpnL3FhyBwdtayC8OZ71WZ9i1aDmTNsdltVaFiSGJpb0eXkrk7EOaoVs1i0IPvM_1vJ6ucGfHBOdqMnzn-D31I5zhqLQ1Cdo\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer UUqXdb35d8Qx_9iLWv8lnsqozN4QTZncVpefNVOGveq6n2BKnROeo__19iy8Kd6zxSGD8A4kv4Q6v8PLXhzBSgQ0KZIanE-t6SQfPMf5w1NDJgEYe-i951K4vuXH7ZM3ncKUngePg-qGpnL3FhyBwdtayC8OZ71WZ9i1aDmTNsdltVaFiSGJpb0eXkrk7EOaoVs1i0IPvM_1vJ6ucGfHBOdqMnzn-D31I5zhqLQ1Cdo",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://sandbox-ltm.sensedia.com/programamerece/v1/redemption/perform/cancel",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505512609701,
+			"name": "Cancel",
+			"description": "",
+			"collectionId": "d9bcb785-eb65-05a5-788e-3ecb6c29e237",
+			"responses": [],
+			"rawModeData": "{ \r\n  \"AccessToken\": null,\r\n  \"Login\": \"11111189145\",\r\n  \"OrderId\": 14568342,\r\n  \"AuthorizationCode\": null,\r\n}"
+		}
+	]
+}

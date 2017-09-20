@@ -1,0 +1,86 @@
+{
+	"id": "0e021ab0-c84b-a306-20a1-e9a548f9b3c0",
+	"name": "BV HotSite",
+	"description": "",
+	"order": [
+		"890026fd-6cf1-d7c9-552b-347d5a072003",
+		"279d13c4-bd45-aa6e-2ab4-3a8449de63ab"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1505846252697,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "279d13c4-bd45-aa6e-2ab4-3a8449de63ab",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nCookie: ASP.NET_SessionId=qvbqtzdhmtt1dz3myppaawec; __RequestVerificationToken=g371XMcsy1Erse7tLYn9xsXhCIkT30TKEP97tBH4f6F4OaLq_f6XW8WQwobOFHYe9OXUogH37mHQTrwz6Ybetqjw2Ahage-viK2AlXwMvhc1\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Cookie",
+					"value": "ASP.NET_SessionId=qvbqtzdhmtt1dz3myppaawec; __RequestVerificationToken=g371XMcsy1Erse7tLYn9xsXhCIkT30TKEP97tBH4f6F4OaLq_f6XW8WQwobOFHYe9OXUogH37mHQTrwz6Ybetqjw2Ahage-viK2AlXwMvhc1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://hml.bvprogramamerece.com.br/Login/Autenticar",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505846491143,
+			"name": "Login/Autenticar",
+			"description": "",
+			"collectionId": "0e021ab0-c84b-a306-20a1-e9a548f9b3c0",
+			"responses": [],
+			"rawModeData": "__RequestVerificationToken=1yKlilMTWUYa_WFPdXDzebGx7vA0EYeMqk2dfvNSl4yj1qFkrEIQ8SIlVKUNmHHuFcm1OgoAUpjvZ21OZ6bAYuASfh8fx8Jh3oSoAN3dP4A1&login=111.111.891-45&senha=123456789"
+		},
+		{
+			"id": "890026fd-6cf1-d7c9-552b-347d5a072003",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nCookie: ASP.NET_SessionId=qvbqtzdhmtt1dz3myppaawec; __RequestVerificationToken=g371XMcsy1Erse7tLYn9xsXhCIkT30TKEP97tBH4f6F4OaLq_f6XW8WQwobOFHYe9OXUogH37mHQTrwz6Ybetqjw2Ahage-viK2AlXwMvhc1\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Cookie",
+					"value": "ASP.NET_SessionId=qvbqtzdhmtt1dz3myppaawec; __RequestVerificationToken=g371XMcsy1Erse7tLYn9xsXhCIkT30TKEP97tBH4f6F4OaLq_f6XW8WQwobOFHYe9OXUogH37mHQTrwz6Ybetqjw2Ahage-viK2AlXwMvhc1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://hml.bvprogramamerece.com.br/ValidaCartaoResgate",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505846401671,
+			"name": "ValidaCartaoResgate",
+			"description": "",
+			"collectionId": "0e021ab0-c84b-a306-20a1-e9a548f9b3c0",
+			"responses": [],
+			"rawModeData": "__RequestVerificationToken=Sf-P9SwyvtapEbkV_33K4eA1yAbqFIRqjEynQKWKVm09GzQt0ATQCMGebEuIaiLzmiRf0kaKHZcEcieQOsNt5jEcu-0_LPzZ3TCH2B9DyJQ1&CPF=111.111.891-45&NumeroCartao4pos=4130&CodigoSeguranca=624&DataNascimento=23%2F10%2F1979&Bandeira=1&Mes=4&Ano=2022&Session=&OrderId=&MsgRetornoValidaCartao="
+		}
+	]
+}
