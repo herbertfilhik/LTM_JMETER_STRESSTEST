@@ -1,11 +1,8 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1505933163359,64,Pagina de Login,200,OK,Grupo de Usuários 1-1,text,true,,11122,211,1,1,63,0,9
-1505933163424,1432,Autenticar Login,200,OK,Grupo de Usuários 1-1,text,true,,323,566,1,1,1432,0,0
-1505933164857,4307,ValidaCartaoResgate,200,OK,Grupo de Usuários 1-1,text,true,,2221,735,1,1,4307,0,0
-1505933169164,636,Token,200,OK,Grupo de Usuários 1-1,text,true,,543,381,1,1,635,0,332
-1505933169801,1149,GetInfo,200,OK,Grupo de Usuários 1-1,text,true,,360,733,1,1,1149,0,0
-1505933170951,1098,Balance,200,OK,Grupo de Usuários 1-1,text,true,,281,736,1,1,1097,0,0
-1505933172049,1144,Authorize,200,OK,Grupo de Usuários 1-1,text,true,,435,945,1,1,1143,0,31
-1505933173193,1143,Confirm,200,OK,Grupo de Usuários 1-1,text,true,,414,1071,1,1,1143,0,0
-1505933174337,1221,Cancel,200,OK,Grupo de Usuários 1-1,text,true,,426,843,1,1,1221,0,29
-1505933175559,316,Card,200,OK,Grupo de Usuários 1-1,text,true,,311,890,1,1,315,0,0
+1505998683984,17889,Token,200,OK,Grupo de Usuários 1-1,text,true,,735,400,1,1,17889,0,579
+1505998701874,1529,GetInfo,200,OK,Grupo de Usuários 1-1,text,true,,559,752,1,1,1528,0,41
+1505998703404,338,Balance,200,OK,Grupo de Usuários 1-1,text,true,,470,774,1,1,337,0,0
+1505998703743,570,Authorize,400,Bad Request,Grupo de Usuários 1-1,text,false,,515,964,1,1,569,0,0
+1505998704314,372,Confirm,200,OK,Grupo de Usuários 1-1,text,true,,546,1090,1,1,371,0,38
+1505998704686,322,Cancel,200,OK,Grupo de Usuários 1-1,text,true,,545,862,1,1,322,0,0
+1505998705009,321,Card,200,OK,Grupo de Usuários 1-1,text,true,,503,909,1,1,320,0,0
